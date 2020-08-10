@@ -9,6 +9,10 @@ async def fetch(session, url):
         return await response.text()
 
 
+async def get_by_provider_id(*ids, **params):
+    return 0
+
+
 async def get_by_id(*ids, **params):
     async with aiohttp.ClientSession(
         auth=aiohttp.BasicAuth(config.username, config.password)
