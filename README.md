@@ -4,6 +4,8 @@ Helps to get info from GIATA api
 
 ## How to use
 
+set `GIATA_USERNAME` and `GIATA_PASSWORD` in your env
+
 import adapter.py to your project
 
 get_by_id(ids, params):
